@@ -20,6 +20,10 @@ public class SceneChange : MonoBehaviour
 
     public void ChangeScene()
     {
+        if (FindObjectOfType<gameManager>())
+        {
+            FindObjectOfType<gameManager>().endTime = 15;
+        }
         SceneManager.LoadScene(sceneToLoad);
     }
 }

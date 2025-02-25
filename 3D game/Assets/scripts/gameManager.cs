@@ -76,13 +76,20 @@ public class gameManager : MonoBehaviour
        // myPlayer = FindObjectOfType<playerMovement>();
         scoreDisplay.text = "Score: " + Score;
         highScoreDisplay.text = "High Score: " + HighScore;
-        endTime -= Time.deltaTime;
-        if (endTime <= 0.0f == SceneManager.Active("SampleScene");
+
+        if (SceneManager.GetActiveScene().name == "SampleScene")
         {
+            endTime -= Time.deltaTime;
+        }
+        if (endTime <= 0.0f && SceneManager.GetActiveScene().name == "SampleScene")
+        {
+           // endTime = 10;
             //highScoreDisplay.enabled = true;
             SceneManager.LoadScene("won");
         }
         //score = myPlayer.score;
 
     }
+
+    
 }
