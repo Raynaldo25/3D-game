@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/home.unity
     guid: f670efeda982c3542a321d2c53365986
   - enabled: 1
-    path: Assets/Scenes/won.unity
-    guid: 9d74f12245c5c574383e4425826e3790
-  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/won.unity
+    guid: 9d74f12245c5c574383e4425826e3790
   m_configObjects: {}
